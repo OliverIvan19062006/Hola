@@ -1,0 +1,556 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.Menu {
+    display: block;
+    width: 100%;
+}
+
+.Imagen{
+    display: flex;
+    width: 100%;
+}
+
+.imagen {
+    width: 100%;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#Titulo{
+    display: flex;
+}
+
+#Icono {
+    padding-left: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.Menus {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.Apartado {
+    display: flex;
+    font-size: 20px;
+    padding-left: 30px;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(177, 122, 70);
+}
+
+.BotonesInitial {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: right;
+}
+
+.BotonesSecond {
+    display: none;
+}
+
+#Navegador{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#IconoMenu {
+    display: none;
+    cursor: pointer;
+}
+
+#Cruz {
+    display: none;
+}
+
+.fa-solid {
+    margin-top: 10px;
+}
+
+#Tiendas {
+    outline-color: none;
+    margin: none;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+   
+}
+
+#ingresar {
+    border-radius: 20px;
+    background-color: rgb(134, 134, 92);
+    padding: 10px;
+
+}
+
+#registro {
+    border-radius: 20px;
+    background-color: rgb(134, 134, 92);
+    padding: 10px;
+
+}
+#Fondo {
+    width: 100%;
+    height: 20%;
+}
+
+.ImagenInicio {
+    width: 100%;
+    height: 460px;
+    background-image: url('Fotos/Frase.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+
+.frase {
+    display: block;
+    width: 100%;
+}
+
+#frase {
+    background-color: rgb(192, 118, 33);
+    font-size: 65px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: beige;
+    align-items: center;
+    justify-content: center;
+}
+
+.Promociones {
+    display: flex;
+    justify-content: center;
+}
+
+.Promocion {
+    margin: 20px 20px 0 20px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 2px rgb(187, 187, 187);
+    background-color: rgb(189, 154, 111);
+}
+
+#ImgPromo {
+    width: 320px;
+    height: 200px;
+    padding: 10px;
+}
+
+#ImgPromoDos {
+    width: 320px;
+    height: 200px;
+    padding: 0px;
+}
+
+#ImgPromoTres {
+    width: 320px;
+    height: 200px;
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.NuevasCosas {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.NewCase {
+    background-color: rgb(230, 193, 151);
+    width: 350px;
+    margin: 20px;
+    box-shadow: 2px 2px 2px rgb(187, 187, 187);
+}
+
+.NewProduct {
+    justify-content: center;
+    color: black;
+}
+
+#Nuevo {
+    width: 320px;
+    height: 200px;
+}
+
+#NuevoP{
+    width: 98px;
+    height: 200px;
+    padding-left: 40%;
+}
+
+
+.Final {
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.RedesSociales {
+    display: flex;
+    justify-content: center;
+}
+
+#Icons {
+    margin: 20px 20px 20px 0;
+
+}
+
+
+.fa-brands.fa-facebook {
+    font-size: 40px;
+
+}
+
+.fa-brands.fa-instagram {
+    font-size: 40px;
+}
+
+.fa-brands.fa-twitter {
+    font-size: 40px;
+}
+
+.fa-brands.fa-whatsapp {
+    font-size: 40px;
+}
+
+.LinksIcons {
+    text-decoration: none;
+    color: black;
+}
+.Finally{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+}
+
+.Terminos {
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(124, 121, 121);
+    justify-content: center;
+    display: flex;
+}
+
+#iconomenu {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .Promocion {
+        width: 330px;
+    }
+
+    #ImgPromo {
+        width: 300px;
+        height: 150px;
+        margin: 10px;
+    }
+
+    #ImgPromoDos {
+        width: 300px;
+        height: 150px;
+    }
+
+    #ImgPromoTres {
+        width: 300px;
+        height: 150px;
+    }
+
+    .NewCase {
+        width: 330px;
+    }
+
+    #Nuevo{
+        width: 300px;
+        height: 150px;
+    }
+
+    #NuevoP{
+        width: 70px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .Menus {
+        width: 100%;
+    }
+
+    .Apartado {
+        padding-left: 40px;
+    }
+
+    .Promocion {
+        width: 300px;
+    }
+
+    #ImgPromo{
+        width: 270px;
+        padding: 5px;
+    }
+    #ImgPromoDos {
+        width: 270px;
+        padding: 5px;
+    }
+    
+    #ImgPromoTres {
+        width: 270px;
+        padding: 5px;
+    }
+
+    .NewCase{
+        width: 300px;
+    }
+
+    #Nuevo{
+        width: 270px;
+        height: 150px;
+    }
+
+    #NuevoP{
+        width: 70px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Promocion {
+        width: 250px;
+    }
+
+    #ImgPromo{
+        width: 200px;
+    }
+    #ImgPromoDos {
+        width: 200px;
+    }
+    
+    #ImgPromoTres {
+        width: 200px;
+    }
+
+    .NewCase{
+        width: 250px;
+    }
+    #Nuevo{
+
+        width: 200px;
+        height: 150px;
+    }
+
+    #NuevoP{
+        width: 70px;
+        height: 150px;
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+
+    .fa-solid.fa-location-dot {
+        display: none;
+    }
+
+    #Tiendas {
+        display: none;
+    }
+
+    #ingresar {
+        display: none;
+    }
+
+    #registro {
+        display: none;
+    }
+
+    #iconomenu {
+        display: block;
+    }
+
+    #IconoMenu {
+        display: block;
+    }
+
+    #Menus {
+        width: 100%;
+        display: block;
+        background-color: white;
+    }
+
+
+    #Apartado {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        background-color: white;
+
+    }
+
+    #BotonesSecond {
+        display: flex;
+        margin-top: 20%;
+        justify-content: center;
+        background-color: white;
+    }
+
+    #tiendas {
+
+        padding: 10px;
+        margin: 20px;
+    }
+
+    #Ingresar {
+
+        background-color: rgb(161, 147, 115);
+        padding: 10px;
+        margin: 20px;
+        border-radius: 10px;
+
+    }
+
+    #Registro {
+        background-color: rgb(161, 147, 115);
+        padding: 10px;
+        border-radius: 10px;
+        margin: 20px;
+    }
+
+    #Navegador {
+        transform: translateX(-100000000000000px);
+        background-color: white;
+        transition: 0.5s;
+        display: block;
+    }
+
+    .Menu {
+        display: block;
+        width: 100%;
+        height: 150px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .ImagenInicio {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 200px;
+        background-position-x: 100%;
+    }
+
+    .frase {
+        padding: 0;
+        width: 100%;
+        display: block;
+    }
+
+    #frase {
+        height: 300px;
+        font-size: 40px;
+    }
+
+    .Promociones {
+        width: 100%;
+        display: block;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 40px;
+
+    }
+
+    .NuevasCosas {
+        display: block;
+    }
+
+    .Promocion {
+        width: 95%;
+        display: flex;
+        padding: 10px;
+        margin: 0px;
+        margin-bottom: 40px;
+    }
+
+    #ImgPromo {
+        width: 50%;
+        height: 100px;
+    }
+
+    #Promo {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #ImgPromoDos {
+        width: 40%;
+        height: 100px;
+    }
+
+    #ImgPromoTres {
+        width: 40%;
+        height: 140px;
+    }
+
+    .NewProduct {
+        color: black;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .NuevasCosas {
+        width: 100%;
+        margin: 0px;
+        margin: 0px;
+        margin-bottom: 40px;
+    }
+
+    .NewCase {
+        padding: 10px;
+        justify-content: center;
+        display: flex;  
+        width: 95%;
+        margin: 0px;
+        margin-top: 40px;
+    }
+
+
+    #NuevoP{
+        width: 70px;
+        height: 150px;
+        margin-left: 0%;
+        margin-right: 10%;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Terminos{
+        display: block;
+    }
+}
